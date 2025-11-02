@@ -1,11 +1,11 @@
-🚀 Desafio DIO: Automatizando Infraestrutura com AWS CloudFormation
-📘 Descrição do Projeto
+## 🚀 Desafio DIO: Automatizando Infraestrutura com AWS CloudFormation
+# 📘 Descrição do Projeto
 
 Este repositório foi criado como parte do desafio da Digital Innovation One (DIO), com o objetivo de aplicar os conceitos de Infraestrutura como Código (IaC) utilizando o AWS CloudFormation.
 
 A proposta é construir e documentar uma infraestrutura automatizada na AWS, explorando boas práticas de versionamento e documentação técnica com o GitHub.
 
-🧩 Objetivos de Aprendizagem
+## 🧩 Objetivos de Aprendizagem
 
 Ao finalizar este desafio, fui capaz de:
 * Aplicar na prática os conceitos de IaC;
@@ -13,7 +13,7 @@ Ao finalizar este desafio, fui capaz de:
 * Documentar processos técnicos de forma clara e organizada;
 * Utilizar o GitHub como ferramenta de versionamento e compartilhamento técnico.
 
-🏗️ Estrutura da Infraestrutura Criada
+## 🏗️ Estrutura da Infraestrutura Criada
 
 O template CloudFormation (template.yml) provisiona os seguintes recursos:
 
@@ -23,9 +23,9 @@ O template CloudFormation (template.yml) provisiona os seguintes recursos:
 * ✅ (Opcional) Bucket S3 para armazenamento
 * ✅ (Opcional) Outputs informando o IP público da instância ou URLs geradas
 
-💡 Ajuste esta lista conforme o que você implementou no seu template.
+## 💡 Ajuste esta lista conforme o que você implementou no seu template.
 
-⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
 * AWS CloudFormation
 * AWS CLI
@@ -33,7 +33,7 @@ O template CloudFormation (template.yml) provisiona os seguintes recursos:
 * Git e GitHub
 * Markdown (para documentação)
 
-🪜 Passo a Passo da Implementação
+## 🪜 Passo a Passo da Implementação
 
 1. Criação do Template
 
@@ -66,7 +66,7 @@ ssh -i "minha-chave.pem" ec2-user@<IP-PUBLICO>
 * Capturei prints e salvei na pasta /images.
 
 
-🧠 Insights e Aprendizados
+## 🧠 Insights e Aprendizados
 
 Durante o desenvolvimento deste desafio, aprendi:
 
@@ -75,7 +75,12 @@ Durante o desenvolvimento deste desafio, aprendi:
 * O valor de documentar todo o processo técnico para aprendizado e portfólio;
 * Boas práticas de uso do GitHub para versionar e compartilhar conhecimento.
 
-💼 Autor
+---
 
-Bianca Gonçalves das Neves
-📧 [biancagneves@gmail.com]
+## ✨ Autora
+
+👩‍💻 Bianca Gonçalves das Neves
+📧 biancagneves@gmail.com
+💼 linkedin.com/in/biancagneves
+
+---
