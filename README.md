@@ -39,18 +39,19 @@ O template CloudFormation (template.yml) provisiona os seguintes recursos:
 
 * Desenvolvi o arquivo template.yml contendo toda a definição da infraestrutura.
 * Exemplo de comando para validar o template:
-
+```
 aws cloudformation validate-template --template-body file://template.yml
-
+```
 
 2. Deploy da Stack
 
 * Após validação, realizei o deploy:
+ ```
 aws cloudformation deploy \
     --template-file template.yml \
     --stack-name dio-cloudformation-lab \
     --capabilities CAPABILITY_IAM
-
+```
 
 3. Verificação
 * Acessei o AWS Management Console para confirmar a criação da stack e dos recursos.
@@ -58,8 +59,9 @@ aws cloudformation deploy \
 4. Testes
 * Conectei-me à instância EC2 (caso criada) via SSH para validar o funcionamento:
 
+```
 ssh -i "minha-chave.pem" ec2-user@<IP-PUBLICO>
-
+```
 5. Documentação
 * Capturei prints e salvei na pasta /images.
 
